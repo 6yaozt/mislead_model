@@ -52,8 +52,8 @@ if __name__ == '__main__':
     fromdir = "./data"
     todir = "./fenci/"
     # 一次只能对一个文档进行分词
-    # file = "clear.txt"
-    file = "mislead.txt"
+    file = "clear.txt"
+    #file = "mislead.txt"
     outfile = open(os.path.join(todir, file), 'w+', encoding='utf-8')
     infile = open(os.path.join(fromdir, file), 'r', encoding='utf-8')
     FenCi(infile, outfile)
